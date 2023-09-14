@@ -64,8 +64,7 @@ def verlet_vectorized(x, y, z, vx, vy, vz, fx, fy, fz, dt):
     y += vy * dt
     z += vz * dt
     # Then, calculate the forces
-    # fx, fy, fz, u = lj_force_vectorized(x, y, z)
-    fx, fy, fz, u = lj_force_looping(x, y, z)
+    fx, fy, fz, u = lj_force_vectorized(x, y, z)
     # Finally, propagate the velocities by half step
     vx += aux * fx * dt
     vy += aux * fy * dt
