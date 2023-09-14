@@ -1,0 +1,15 @@
+{
+    "n_particles": 108,
+    "mass": 39.948,
+    "epsilon": 0.2379,
+    "sigma": 3.405,
+    "r_cut": 8.5,
+    "box_size": 17.1580,
+    "initial_state": "argon_108.rest",
+    "trajectory_file": "argon_108.xyz",
+    "energy_file": "argon_108.dat",
+    "n_steps": 100,
+    "delta_t": 5,
+    "output_freq": 10,
+    "n_workers": 1
+}
